@@ -395,8 +395,8 @@
         <b>Zhaokai Wang</b><sup>1,*,&Dagger;</sup>, <b>Mingxin Liu</b><sup>1,*</sup>, <b>Zirun Zhu</b><sup>1,*</sup>,
         <b>Ziqian Fan</b><sup>2,*</sup>, <b>Yiguo He</b><sup>1,*</sup>, <b>Mohan Zhang</b><sup>3</sup>,
         <b>Leyao Gu</b><sup>1</sup>, <b>Xiangyu Zhao</b><sup>1</sup>, <b>Ning Liao</b><sup>1</sup>,
-        <b>Shaofeng Zhang</b><sup>4</sup>, <b>Qibing Ren</b><sup>1</sup>,
-        <b>Zhihang Zhong</b><sup>1</sup>, <b>Xuanhe Zhou</b><sup>1</sup>, <b>Junchi Yan</b><sup>1</sup>,
+        <b>Shaofeng Zhang</b><sup>4</sup>, <b>Xuanhe Zhou</b><sup>1</sup>, 
+        <b>Zhihang Zhong</b><sup>1</sup>, <b>Junchi Yan</b><sup>1</sup>,
         <b>Xue Yang</b><sup>1,&dagger;</sup>
       </p>
       <p style="color: rgba(255,255,255,0.55); font-size: 0.8rem; margin-top: 0.6rem; line-height: 1.7;">
@@ -421,7 +421,7 @@
       <h2>Abstract</h2>
     </div>
     <div class="abstract-box fade-in">
-      <p>Recent image generation and editing models can produce visually appealing natural images, yet they remain unreliable when the target image is a knowledge-intensive diagram whose correctness depends on disciplinary concepts, symbolic structure, and precise spatial relations. We introduce <b>DisciplineGen-1M</b>, a large-scale dataset for multidisciplinary academic visual generation and editing. DisciplineGen-1M contains one million text-to-image and image-editing samples spanning mathematics, physics, chemistry, biology, geography, computer science, economics, history, music, and sports. To construct the dataset, we design a scalable framework that combines vector-graphics rendering, OCR-based editing, curated programmatic synthesis, and large-scale text-to-image filtering. These pipelines produce captions, editing instructions, structured annotations, and paired images with controllable semantic differences. Building on DisciplineGen-1M, we further instantiate a discipline-informed reasoning-generation framework for both text-to-image generation and image editing. Experiments on GenExam and GRADE show substantial improvements over open-source baselines, achieving the best open-source performance in both settings. The results suggest that large-scale structured academic visual data is a key ingredient for moving image generation from aesthetic plausibility toward verifiable knowledge-grounded visual creation. We will publicly release our dataset, model, and source code of the data curation pipeline to ensure reproducibility and benefit future research.</p>
+      <p>Recent image generation and editing models can produce visually appealing natural images, yet they remain unreliable when the target image is a knowledge-intensive diagram whose correctness depends on disciplinary concepts, symbolic structure, and precise spatial relations. We introduce DisciplineGen-1M, a million-scale multidisciplinary dataset that supports text-to-image generation and image editing. It contains 1.2M samples spanning mathematics, physics, chemistry, biology, geography, computer science, economics, history, music, and sports. To construct the dataset, we design a scalable framework that combines vector-graphics rendering, OCR-based editing, curated programmatic synthesis, and large-scale text-to-image filtering. These pipelines produce captions, editing instructions, structured annotations, and paired images with controllable semantic differences. Building on DisciplineGen-1M, we further introduce a discipline-informed reasoning-generation model for both text-to-image generation and image editing. Experiments on discipline-related benchmarks, GenExam and GRADE, show substantial improvements over open-source baselines, while evaluations on general reasoning-informed benchmarks, WISE and RISE, further indicate broader transfer. The results suggest that large-scale structured academic visual data is a key ingredient for moving image generation from aesthetic plausibility toward verifiable knowledge-grounded visual creation. We will publicly release our dataset, model, and source code of the data curation pipeline to ensure reproducibility and benefit future research.</p>
     </div>
   </div>
 </section>
@@ -478,7 +478,7 @@
   </div>
 </section>
 
-<section class="grade-section alt-bg">
+<!-- <section class="grade-section alt-bg">
   <div class="container-wide">
     <div class="section-header fade-in">
       <span class="section-number">VI</span>
@@ -489,7 +489,7 @@
       <p class="img-caption"><b>Sub-discipline distribution of DisciplineGen-1M.</b> The distribution covers broad academic subjects and fine-grained visual formats.</p>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="grade-section">
   <div class="container-narrow">
